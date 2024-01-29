@@ -1,0 +1,23 @@
+import sys
+from data_pipelines.data_pipelines import DataFormatConverter
+
+args = sys.argv[1:]
+
+input_file = "/login/tobfer/code/data_pipelines/raw_data/GEBCO_2023.nc"
+input_format = "nc"
+output_filepath = "/login/tobfer/code/data_pipelines/raw_data/"
+output_filename = "GEBCO_2023.tif"
+output_format = "cog"
+
+
+bucket_name = ("haig-fras",)
+bucket_folder: str = "layers/bathymetry/gebco"
+d = DataFormatConverter(input_file=input_file, input_format=input_format)
+d.convert_format(
+    output_filename=output_filename,
+    output_filepath=output_filepath,
+    output_format=output_format,
+    upload_file=True,
+    bucket_name=bucket_name,
+    bucket_folder=bucket_folder,
+)

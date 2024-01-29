@@ -1,0 +1,107 @@
+{
+    "catalog" : {
+        "id":"Haig Fras",
+        "description":"Haig Fras Digital twin",
+        "title":"Digital Twin"
+    },
+    "sub_catalogs": [
+        "subcatalog_template"
+    ],
+    "collections": [
+        {
+            "id":"Collection 1 ID",
+            "description":"Collection 1 description",
+            "title":"Collection 1 title",
+            "type":"Collection",
+            "license":"Placeholder",
+            "global_path": "GLOBAL PATH OF THE FILES ON THE OBJECT STORE",
+            "items": [
+                {
+                    "id": "Collection 1 Item 1 ID - Example of a COG File",
+                    "path": "DIRECTORY OF THE FILE ON THE OBJECT STORE",
+                    "times": {
+                        "start_time":"2021-07-01T00:00:00Z",
+                        "end_time" :"2022-06-01T00:00:00Z"
+                    },
+                    "coords":{
+                        "_comments": "if you dont describe a coords value, it will process the file to get the values",
+                        "min_long": -90,
+                        "max_long": 90,
+                        "min_lat": -180,
+                        "max_lat": 180
+                    },
+                    "data_type": "COG",
+                    "_comments": "Assets and links are optional",
+                    "assets": [
+                        {
+                            "data_type": "PNG",
+                            "path": "/haig-fras/layers/bathymetry/gebco/gebco_2022.png",
+                            "asset_type": "thumbnail"
+                        }
+                    ],
+                    "links": [
+                        {
+                            "rel": "PNG",
+                            "target": "/haig-fras/layers/bathymetry/gebco/gebco_2022.png",
+                            "title": "thumbnail"
+                        }
+                    ]
+                },
+            {
+                "id": "Collection 1 Item 2 ID - WMS Layer example",
+                "times": {
+                    "start_time":"2020-01-01T00:00:00Z",
+                    "end_time" :"2020-12-31T00:00:00Z"
+                },
+                "coords":{
+                    "min_long": -90,
+                    "max_long": 90,
+                    "min_lat": -180,
+                    "max_lat": 180
+                },                    
+                "data_type": "WMS",
+                "description": "This layer represents...",
+                "links": [
+                    {
+                        "rel": "wms",
+                        "href": "https://ows.emodnet.eu/geoserver/biology/ows",
+                        "type": "text/xml",
+                        "title": "Presence/Absence Benthos",
+                        "wms:layers": "probability_occurrence_benthos_northsea"
+                    }
+                ]
+            }]
+        },
+        {
+            "id":"Collectin 2 ID",
+            "description":"Collection 2 Description",
+            "title":"Collecion 2 title",
+            "license":"Placeholder",
+            "global_path": "GLOBAL PATH OF THE FILES ON THE OBJECT STORE",
+            "assets": [
+                {
+                    "data_type": "CSV",
+                    "path": "PATH OF THE CSV FILE 1 ON THE OBJECT STORE",
+                    "asset_type": "data"
+                },
+                {
+                    "data_type": "CSV",
+                    "path": "PATH OF THE CSV FILE 2 ON THE OBJECT STORE",
+                    "asset_type": "data"
+                }
+            ],
+            "items": [
+                {
+                    "_comments": "If you include is_group, it will open the 'file' item, convert it to a geojson and create a list of items",
+                    "is_group": "yes",
+                    "file": "IS GROUP FILE",
+                    "description":"IS GROUP ITEM DESCRIPTION",
+                    "thumbnail_path": "IS GROUP THUMBNAIL DIRECTORY PATH",
+                    "thumbnail_format": "jpg",
+                    "data_path": "IS GROUP THUMBNAIL DIRECTORY PATH",
+                    "data_type": "COG"
+                }
+            ]
+        }
+    ]
+}

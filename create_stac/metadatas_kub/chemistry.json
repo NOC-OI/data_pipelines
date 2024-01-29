@@ -1,0 +1,174 @@
+{
+    "catalog" : {
+        "id":"Chemistry",
+        "description":"Chemistry",
+        "title":"Chemistry"
+    },
+    "collections":[
+        {
+            "id":"Chlorophyll-a",
+            "description":"Chlorophyll-a",
+            "title":"Chlorophyll-a",
+            "license":"Placeholder",
+            "items": [
+                {
+                    "id": "Chlorophyll-a",
+                    "times": {
+                        "start_time":"2020-01-01T00:00:00Z",
+                        "end_time" :"2020-12-31T00:00:00Z"
+                    },
+                    "data_type": "WMS",
+                    "description": "This layer represents...",
+                    "coords":{
+                        "min_long": -90,
+                        "max_long": 90,
+                        "min_lat": -180,
+                        "max_lat": 180
+                    },                    
+                    "links": [
+                        {
+                            "rel": "wms",
+                            "href": "https://ec.oceanbrowser.net/emodnet/Python/web/wms",
+                            "type": "text/xml",
+                            "title": "Chlorophyll-a",
+                            "wms:layers": "All_European_Seas/Water_body_chlorophyll-a.nc*Water body chlorophyll-a_L2",
+                            "wms:styles": "pcolor_flat"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id":"Dissolved Oxygen",
+            "description":"Dissolved Oxygen",
+            "title":"Dissolved Oxygen",
+            "license":"Placeholder",
+            "items": [
+                {
+                    "id": "Dissolved Oxygen",
+                    "times": {
+                        "start_time":"2020-01-01T00:00:00Z",
+                        "end_time" :"2020-12-31T00:00:00Z"
+                    },
+                    "data_type": "WMS",
+                    "description": "This layer represents...",
+                    "coords":{
+                        "min_long": -90,
+                        "max_long": 90,
+                        "min_lat": -180,
+                        "max_lat": 180
+                    },                    
+                    "links": [
+                        {
+                            "rel": "wms",
+                            "href": "https://ec.oceanbrowser.net/emodnet/Python/web/wms",
+                            "type": "text/xml",
+                            "title": "Dissolved Oxygen",
+                            "wms:layers": "All_European_Seas/Water_body_dissolved_oxygen_concentration.nc*Water body dissolved oxygen concentration_L2",
+                            "wms:styles": "pcolor_flat"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id":"Inorganic Nitrogen",
+            "description":"Inorganic Nitrogen",
+            "title":"Inorganic Nitrogen",
+            "license":"Placeholder",
+            "items": [
+                {
+                    "id": "Inorganic Nitrogen",
+                    "times": {
+                        "start_time":"2020-01-01T00:00:00Z",
+                        "end_time" :"2020-12-31T00:00:00Z"
+                    },
+                    "data_type": "WMS",
+                    "description": "This layer represents...",
+                    "coords":{
+                        "min_long": -90,
+                        "max_long": 90,
+                        "min_lat": -180,
+                        "max_lat": 180
+                    },                    
+                    "links": [
+                        {
+                            "rel": "wms",
+                            "href": "https://ec.oceanbrowser.net/emodnet/Python/web/wms",
+                            "type": "text/xml",
+                            "title": "Inorganic Nitrogen",
+                            "wms:layers": "All_European_Seas/Water_body_dissolved_inorganic_nitrogen.nc*Water body dissolved inorganic nitrogen_L2",
+                            "wms:styles": "pcolor_flat"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id":"Phosphate",
+            "description":"Phosphate",
+            "title":"Phosphate",
+            "license":"Placeholder",
+            "items": [
+                {
+                    "id": "Phosphate",
+                    "times": {
+                        "start_time":"2020-01-01T00:00:00Z",
+                        "end_time" :"2020-12-31T00:00:00Z"
+                    },
+                    "data_type": "WMS",
+                    "description": "This layer represents...",
+                    "coords":{
+                        "min_long": -90,
+                        "max_long": 90,
+                        "min_lat": -180,
+                        "max_lat": 180
+                    },                    
+                    "links": [
+                        {
+                            "rel": "wms",
+                            "href": "https://ec.oceanbrowser.net/emodnet/Python/web/wms",
+                            "type": "text/xml",
+                            "title": "Phosphate",
+                            "wms:layers": "All_European_Seas/Water_body_phosphate.nc*Water body phosphate_L2",
+                            "wms:styles": "pcolor_flat"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id":"Silicate",
+            "description":"Silicate",
+            "title":"Silicate",
+            "license":"Placeholder",
+            "items": [
+                {
+                    "id": "Silicate",
+                    "times": {
+                        "start_time":"2020-01-01T00:00:00Z",
+                        "end_time" :"2020-12-31T00:00:00Z"
+                    },
+                    "data_type": "WMS",
+                    "description": "This layer represents...",
+                    "coords":{
+                        "min_long": -90,
+                        "max_long": 90,
+                        "min_lat": -180,
+                        "max_lat": 180
+                    },                    
+                    "links": [
+                        {
+                            "rel": "wms",
+                            "href": "https://ec.oceanbrowser.net/emodnet/Python/web/wms",
+                            "type": "text/xml",
+                            "title": "Silicate",
+                            "wms:layers": "All_European_Seas/Water_body_silicate.nc*Water body silicate_L2",
+                            "wms:styles": "pcolor_flat"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

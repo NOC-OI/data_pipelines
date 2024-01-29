@@ -1,0 +1,129 @@
+{
+    "catalog" : {
+        "id":"Seabed Habitats",
+        "description":"Seabed Habitats",
+        "title":"Seabed Habitats"
+    },
+    "collections":[
+        {
+            "id":"Seabed Habitats",
+            "description":"Seabed Habitats",
+            "title":"Seabed Habitats",
+            "license":"Placeholder",
+            "items": [
+                {
+                    "id": "WMS",
+                    "coords":{
+                        "min_long": -90,
+                        "max_long": 90,
+                        "min_lat": -180,
+                        "max_lat": 180
+                    },                    
+                    "times": {
+                        "start_time":"2020-01-01T00:00:00Z",
+                        "end_time" :"2020-12-31T00:00:00Z"
+                    },
+                    "data_type": "WMS",
+                    "description": "Output of the 2021 EUSeaMap broad-scale predictive model, produced by EMODnet Seabed Habitats. \nThe extent of the mapped area includes the Mediterranean Sea, Black Sea, Baltic Sea, and areas of the North Eastern Atlantic extending from the Canary Islands in the south to the Barents Sea in the north. \nThe map was produced using a 'top-down' modelling approach using classified habitat descriptors to determine a final output habitat. \nHabitat descriptors differ per region but include: \n- Biological zone \n- Energy class \n- Oxygen regime \n- Salinity regime \n- Seabed substrate \n- Riverine input \nHabitat descriptors (excepting Substrate) are calculated using underlying physical data and thresholds derived from statistical analyses or expert judgement on known conditions. \nThe model is produced using R and Arc Model Builder (10.1). \nThe model was created using raster input layers with a cell size of 0.00104dd (roughly 100 metres). The model includes the sublittoral zone only; due to the high variability of the littoral zone, a lack of detailed substrate data and the resolution of the model, it is difficult to predict littoral habitats at this scale. \nEUSeaMap is classified into EUNIS 2019 level 3 (or more detailed levels where appropriate), EUNIS 2019 level 2 , EUNIS 2007-2011, the MSFD benthic broad habitat types, the HELCOM HUB classification in the Baltic, and the recently revised habitat classification in the Mediterranean. In the Black Sea, EUSeaMap is not classified into EUNIS 2007-2011 (due to inapplicability), but is classified according to a classification that was developed by EMODnet Seabed Habitats (Populus et a, 2017, and for a revised version Vasquez et al, 2020, See Online resources). \nReports that provide methods used for the classification of the predicted habitats into the new 2019 EUNIS classification, regional classifications, and MSFD BBHT (v.2017) are linked in Online Resources. \nA report on the methods used in the 2021 version of EUSeaMap (Vasquez et al., 2021) and reports on previous versions (v2016 and V2019) are linked in Online Resources.",
+                    "links": [
+                        {
+                            "rel": "wms",
+                            "href": "https://ows.emodnet-seabedhabitats.eu/geoserver/emodnet_view/wms",
+                            "type": "text/xml",
+                            "title": "Seabed Habitats",
+                            "wms:layers": "eusm2021_eunis2019_group"
+                        }
+                    ]
+                },
+                {
+                    "id": "MBTiles",
+                    "times": {
+                        "start_time":"2020-01-01T00:00:00Z",
+                        "end_time" :"2020-12-31T00:00:00Z"
+                    },
+                    "coords":{
+                        "min_long": -90,
+                        "max_long": 90,
+                        "min_lat": -180,
+                        "max_lat": 180
+                    },                    
+                    "data_type": "mbtiles",
+                    "path": "/tobfer/mbtiles/habitats_new-65536.mbtiles",
+                    "description": "Output of the 2021 EUSeaMap broad-scale predictive model, produced by EMODnet Seabed Habitats. \nThe extent of the mapped area includes the Mediterranean Sea, Black Sea, Baltic Sea, and areas of the North Eastern Atlantic extending from the Canary Islands in the south to the Barents Sea in the north. \nThe map was produced using a 'top-down' modelling approach using classified habitat descriptors to determine a final output habitat. \nHabitat descriptors differ per region but include: \n- Biological zone \n- Energy class \n- Oxygen regime \n- Salinity regime \n- Seabed substrate \n- Riverine input \nHabitat descriptors (excepting Substrate) are calculated using underlying physical data and thresholds derived from statistical analyses or expert judgement on known conditions. \nThe model is produced using R and Arc Model Builder (10.1). \nThe model was created using raster input layers with a cell size of 0.00104dd (roughly 100 metres). The model includes the sublittoral zone only; due to the high variability of the littoral zone, a lack of detailed substrate data and the resolution of the model, it is difficult to predict littoral habitats at this scale. \nEUSeaMap is classified into EUNIS 2019 level 3 (or more detailed levels where appropriate), EUNIS 2019 level 2 , EUNIS 2007-2011, the MSFD benthic broad habitat types, the HELCOM HUB classification in the Baltic, and the recently revised habitat classification in the Mediterranean. In the Black Sea, EUSeaMap is not classified into EUNIS 2007-2011 (due to inapplicability), but is classified according to a classification that was developed by EMODnet Seabed Habitats (Populus et a, 2017, and for a revised version Vasquez et al, 2020, See Online resources). \nReports that provide methods used for the classification of the predicted habitats into the new 2019 EUNIS classification, regional classifications, and MSFD BBHT (v.2017) are linked in Online Resources. \nA report on the methods used in the 2021 version of EUSeaMap (Vasquez et al., 2021) and reports on previous versions (v2016 and V2019) are linked in Online Resources.",
+                    "links": [
+                        {
+                            "rel": "xyz",
+                            "href": "https://mbtiles.haigfras-arm.dynv6.net/v1/tiles/mytiles@1.0.0/{z}/{x}/{y}.mvt",
+                            "data_type": "application/vnd.mapbox-vector-tile",
+                            "title": "Seabed Habitats"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id":"Biozones",
+            "description":"Biozones",
+            "title":"Biozones",
+            "license":"Placeholder",
+            "items": [        
+                {
+                    "id": "Biozones",
+                    "times": {
+                        "start_time":"2020-01-01T00:00:00Z",
+                        "end_time" :"2020-12-31T00:00:00Z"
+                    },
+                    "coords":{
+                        "min_long": -90,
+                        "max_long": 90,
+                        "min_lat": -180,
+                        "max_lat": 180
+                    },                    
+                    "data_type": "WMS",
+                    "links": [
+                        {
+                            "rel": "wms",
+                            "href": "https://ows.emodnet-seabedhabitats.eu/geoserver/emodnet_view/wms",
+                            "type": "text/xml",
+                            "title": "Biozones",
+                            "wms:layers": "eusm2021_bio_full"
+                        }
+                    ],
+                    "description": "This maps shows the classified biological zones for all European waters used in the EMODnet broad-scale seabed habitat model (EUSeaMap) . It is one of the several habitat descriptors used to determine the final habitat type. Biological zones are determined using a variety of physical variables and proxies."
+                }
+            ]
+        },
+        {
+            "id":"Annex I - Reefs",
+            "description":"Annex I - Reefs",
+            "title":"Annex I - Reefs",
+            "license":"Placeholder",
+            "items": [
+                {
+                    "id": "Annex I - Reefs",
+                    "times": {
+                        "start_time":"2020-01-01T00:00:00Z",
+                        "end_time" :"2020-12-31T00:00:00Z"
+                    },
+                    "coords":{
+                        "min_long": -90,
+                        "max_long": 90,
+                        "min_lat": -180,
+                        "max_lat": 180
+                    },
+                    "data_type": "WMS",
+                    "links": [
+                        {
+                            "rel": "wms",
+                            "href": "https://mpa-ows.jncc.gov.uk/mpa_mapper/wms",
+                            "type": "text/xml",
+                            "title": "Annex I - Reefs",
+                            "wms:layers": "prot_annexi_reef_full"
+                        }
+                    ],
+                    "description": "This dataset contains all geospatial data that show the potential and high confidence mapped extents of Annex I habitat 'Reef' in UK waters, including any additional areas that should be considered reef for management purposes. Annex I reefs occur where rocky areas or concretions made by marine animals arise from the surrounding seafloor. Version 8.1 of the dataset was produced by removing a single map (GB000980) from the previous version (2019 V8). Version 8.2 of the dataset was produced by correcting polygon errors in Rockall Reef from the previous version (2021 V8.1). Version 8.3 of the dataset was produced by updating data availability restrictions, addressing overlapping polygons in the Shetland Islands, removing specific points following updated advice and correcting a GUI following updated advice from the previous version (2021 V8.2). Areas of protected reef can be viewed on the JNCC MPA Mapper: https://jncc.gov.uk/mpa-mapper. Additional information source: https://jncc.gov.uk/our-work/marine-habitat-data-product-habitats-directive-annex-i-marine-habitats/."
+                }
+            ]
+        }
+    ]
+}

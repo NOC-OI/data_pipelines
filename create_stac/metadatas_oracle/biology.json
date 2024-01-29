@@ -1,0 +1,34 @@
+{
+    "catalog" : {
+        "id":"Biology",
+        "description":"Biology",
+        "title":"Biology"
+    },
+    "collections":[
+        {
+            "id":"NBN",
+            "description":"NBN",
+            "title":"NBN",
+            "license":"Placeholder",
+            "global_path": "https://lrl8vbuxj1ma.compat.objectstorage.uk-london-1.oraclecloud.com",
+            "assets": [
+                {
+                    "data_type": "CSV",
+                    "path": "/haig-fras/layers/seabed_images/nbn/nbn.csv",
+                    "asset_type": "data"
+                }
+            ],
+            "items": [{
+                "id": "NBN",
+                "file": "https://imfe-pilot-api.noc.ac.uk/v1/data/csv?filenames=layers:seabed_images:nbn:nbn&columns=active:False,local_data_type:Marker-COG,show:True&convert_geom=true",
+                "path": "/haig-fras/layers/seabed_images/nbn/nbn_data.json",
+                "times": {
+                    "start_time":"2020-01-01T00:00:00Z",
+                    "end_time" :"2020-12-31T00:00:00Z"
+                },
+                "data_type": "GeoJSON",
+                "description": "National Biodiversity Network (NBN) Atlas species occurrence data were extracted from https://nbnatlas.org. The NBN Atlas data were filtered by drawing a bounding box in the region on the Greater Haig Fras Marine Protected Area (MPA). This was further filtered by removing datasets that did not have the CC-BY or CC-BY-NC licence. Datasets relating to bird and planktonic surveys were individually removed from the search. The final output was downloaded on Tue Jun 27 09:31:05 UTC 2023. Individual citations per dataset are included within the data download (citation.csv). The output from this download was subsequently passed through the World register of Marine Species (WoRMS) Taxon Matching tool (https://www.marinespecies.org/aphia.php?p=match), and the output was manually filtered to further constrain the output to contain only plants and invertebrate animals, excluding plankton."
+            }]
+        }
+    ]
+}

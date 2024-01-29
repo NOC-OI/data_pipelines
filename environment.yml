@@ -1,0 +1,24 @@
+name: data_pipelines
+channels:
+  - conda-forge
+dependencies:
+  - python>=3.8
+  - gdal
+  - pip
+  - pip:
+    - python-dotenv
+    - pathlib
+    - click
+    - pystac
+    - rasterio
+    - shapely
+    - boto3
+    - python-dateutil
+    - geopandas
+    - rioxarray
+    - rasterio
+    - black
+    - coverage
+    - flake8
+    - pytest
+    - yapf

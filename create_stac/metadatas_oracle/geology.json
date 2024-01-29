@@ -1,0 +1,74 @@
+{
+    "catalog" : {
+        "id":"Geology",
+        "description":"Geology",
+        "title":"Geology"
+    },
+    "collections":[
+        {
+            "id":"Seabed Substrate",
+            "description":"Seabed Substrate",
+            "title":"Seabed Substrate",
+            "license":"Placeholder",
+            "items": [
+                {
+                    "id": "Seabed Substrate",
+                    "times": {
+                        "start_time":"2020-01-01T00:00:00Z",
+                        "end_time" :"2020-12-31T00:00:00Z"
+                    },
+                    "data_type": "WMS",
+                    "description": "This layer represents...",
+                    "coords":{
+                        "min_long": -90,
+                        "max_long": 90,
+                        "min_lat": -180,
+                        "max_lat": 180
+                    },                    
+                    "links": [
+                        {
+                            "rel": "wms",
+                            "href": "https://drive.emodnet-geology.eu/geoserver/gtk/wms",
+                            "type": "text/xml",
+                            "title": "Seabed Substrate",
+                            "wms:layers": "gtk:seabed_substrate_250k",
+                            "wms:style": "gtk:folk_16_substrate_class"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id":"Geological Process Features",
+            "description":"Geological Process Features",
+            "title":"Geological Process Features",
+            "license":"Placeholder",
+            "items": [
+                {
+                    "id": "Geological Process Features",
+                    "times": {
+                        "start_time":"2020-01-01T00:00:00Z",
+                        "end_time" :"2020-12-31T00:00:00Z"
+                    },
+                    "coords":{
+                        "min_long": -90,
+                        "max_long": 90,
+                        "min_lat": -180,
+                        "max_lat": 180
+                    },                    
+                    "data_type": "WMS",
+                    "description": "This layer represents...",
+                    "links": [
+                        {
+                            "rel": "wms",
+                            "href": "https://mpa-ows.jncc.gov.uk/mpa_mapper/wms",
+                            "type": "text/xml",
+                            "title": "Geological Process Features",
+                            "wms:layers": "geolpf_mcz"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

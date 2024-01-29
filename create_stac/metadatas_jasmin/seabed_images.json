@@ -1,0 +1,111 @@
+{
+    "catalog" : {
+        "id":"Seabed Images",
+        "description":"Seabed Images",
+        "title":"Seabed Images"
+    },
+    "collections":[
+        {
+            "id":"2012 AUV Image Survey",
+            "description":"Haig Fras 2012 autonomous underwater vehicle image survey - mosaicked tiles used for quantifying benthic community. \n The aim of the survey was to undertake high-resolution mapping and colour photography over in a recommended Marine Conservation Zone (rMCZ), in order to highlight thecapability of AUV technology for high-resolution shallow-water mapping and benthicspecies identification. \n Haig Fras is an isolated, bedrock outcrop some 90 km north west of the Isles of Scilly.It is thought to be the only substantial area of rocky reef in the Celtic Sea beyond the coastal margin. The rock outcrop is the focus of both a Special Area of Conservation and a recommended Marine Conservation Zone. The specific location of the Autosub6000 mission was chosen to correspond with an area of ship-based seabed survey carried out from the RV Cefas Endeavour just prior to the arrival of RRS Discovery cruise 377/8. \n This photographic survey was the first in a series of surveys conducted in the same location with a camera mounted on an autonomous underwater vehicle, conducted when the Greater Haig Fras area was under consideration for MCZ status. Defra-funded project 'Investigating the feasibility of utilizing AUV and Glider technology for mapping and monitoring of the UK MPA network (MB0118)', Case study 2: Shallow-water AUV mapping off SW UK; Cruise report: Ruhl, H., scientists, 2013. RRS Discovery Cruise 377 & 378, 05-27 July 2012. Autonomous ecological surveying of the abyss: understanding mesoscale spatial heterogeneity at the Porcupine Abyssal Plain.  (p. 73). Southampton, UK: National Oceanography Centre, Southampton. \n Images were mosaicked in 'tiles' consisting of 5 consecutive images (or c. 7.3 m2 of seabed at c. 3.2 m altitude observation). Images were orthorectified and scaled to a common altitude per tile. The average dimension of a pixel was 0.59 mm. Further details of the mosaicking process are detailed in: Morris, K.J., Bett, B.J., Durden, J.M., Huvenne, V.A.I., Milligan, R., Jones, D.O.B., McPhail, S., Robert, K., Bailey, D., Ruhl, H.A., 2014. A new method for ecological surveying of the abyss using autonomous underwater vehicle photography. Limnology and Oceanography: Methods, 12, 795-809. 10.4319/lom.2014.12.795 \n **Total number of tiles:** 2637 \n**Total area of survey:** 19223 m$^2$ \n **Number of individuals:** XXXXX \n [CEDA Link](https://www.ceda.ac.uk/)",
+            "title":"2012 AUV Image Survey",
+            "license":"Placeholder",
+            "global_path": "https://pilot-imfe-o.s3-ext.jc.rl.ac.uk",
+            "assets": [
+                {
+                    "data_type": "CSV",
+                    "path": "/haig-fras/layers/seabed_images/hf2012/HF2012_alltile_otherdata.csv",
+                    "asset_type": "data"
+                },
+                {
+                    "data_type": "CSV",
+                    "path": "/haig-fras/layers/seabed_images/hf2012/HF2012_alltile_counts.csv",
+                    "asset_type": "data"
+                }
+            ],
+            "items": [
+                {
+                    "is_group": "yes",
+                    "file": "https://imfe-pilot-api.noc.ac.uk/v1/data/csv?filenames=layers:seabed_images:hf2012:HF2012_alltile_otherdata,layers:seabed_images:hf2012:HF2012_alltile_counts&columns=active:False,local_data_type:Marker-COG,show:True&convert_geom=true",
+                    "description":"Haig Fras 2012 autonomous underwater vehicle image survey - mosaicked tiles used for quantifying benthic community. \n The aim of the survey was to undertake high-resolution mapping and colour photography over in a recommended Marine Conservation Zone (rMCZ), in order to highlight thecapability of AUV technology for high-resolution shallow-water mapping and benthicspecies identification. \n Haig Fras is an isolated, bedrock outcrop some 90 km north west of the Isles of Scilly.It is thought to be the only substantial area of rocky reef in the Celtic Sea beyond the coastal margin. The rock outcrop is the focus of both a Special Area of Conservation and a recommended Marine Conservation Zone. The specific location of the Autosub6000 mission was chosen to correspond with an area of ship-based seabed survey carried out from the RV Cefas Endeavour just prior to the arrival of RRS Discovery cruise 377/8. \n This photographic survey was the first in a series of surveys conducted in the same location with a camera mounted on an autonomous underwater vehicle, conducted when the Greater Haig Fras area was under consideration for MCZ status. Defra-funded project 'Investigating the feasibility of utilizing AUV and Glider technology for mapping and monitoring of the UK MPA network (MB0118)', Case study 2: Shallow-water AUV mapping off SW UK; Cruise report: Ruhl, H., scientists, 2013. RRS Discovery Cruise 377 & 378, 05-27 July 2012. Autonomous ecological surveying of the abyss: understanding mesoscale spatial heterogeneity at the Porcupine Abyssal Plain.  (p. 73). Southampton, UK: National Oceanography Centre, Southampton. \n Images were mosaicked in 'tiles' consisting of 5 consecutive images (or c. 7.3 m2 of seabed at c. 3.2 m altitude observation). Images were orthorectified and scaled to a common altitude per tile. The average dimension of a pixel was 0.59 mm. Further details of the mosaicking process are detailed in: Morris, K.J., Bett, B.J., Durden, J.M., Huvenne, V.A.I., Milligan, R., Jones, D.O.B., McPhail, S., Robert, K., Bailey, D., Ruhl, H.A., 2014. A new method for ecological surveying of the abyss using autonomous underwater vehicle photography. Limnology and Oceanography: Methods, 12, 795-809. 10.4319/lom.2014.12.795 \n **Total number of tiles:** 2637 \n**Total area of survey:** 19223 m$^2$ \n **Number of individuals:** XXXXX \n [CEDA Link](https://www.ceda.ac.uk/)",
+                    "thumbnail_path": "/haig-fras/layers/seabed_images/hf2012/images",
+                    "thumbnail_format": "jpg",
+                    "data_path": "/haig-fras/layers/seabed_images/hf2012/tif",
+                    "data_type": "COG"
+                },
+                {
+                    "id": "2012 AUV Image Survey Data",
+                    "file": "https://imfe-pilot-api.noc.ac.uk/v1/data/csv?filenames=layers:seabed_images:hf2012:HF2012_alltile_otherdata,layers:seabed_images:hf2012:HF2012_alltile_counts&columns=active:False,local_data_type:Marker-COG,show:True&convert_geom=true",
+                    "path": "/haig-fras/layers/seabed_images/hf2012/HF2012_data.json",
+                    "times": {
+                        "start_time":"2020-01-01T00:00:00Z",
+                        "end_time" :"2020-12-31T00:00:00Z"
+                    },
+                    "thumbnail_path": "/haig-fras/layers/seabed_images/hf2012/images",
+                    "thumbnail_format": "jpg",
+                    "data_type": "GeoJSON",
+                    "description":"Haig Fras 2012 autonomous underwater vehicle image survey - mosaicked tiles used for quantifying benthic community. \n The aim of the survey was to undertake high-resolution mapping and colour photography over in a recommended Marine Conservation Zone (rMCZ), in order to highlight thecapability of AUV technology for high-resolution shallow-water mapping and benthicspecies identification. \n Haig Fras is an isolated, bedrock outcrop some 90 km north west of the Isles of Scilly.It is thought to be the only substantial area of rocky reef in the Celtic Sea beyond the coastal margin. The rock outcrop is the focus of both a Special Area of Conservation and a recommended Marine Conservation Zone. The specific location of the Autosub6000 mission was chosen to correspond with an area of ship-based seabed survey carried out from the RV Cefas Endeavour just prior to the arrival of RRS Discovery cruise 377/8. \n This photographic survey was the first in a series of surveys conducted in the same location with a camera mounted on an autonomous underwater vehicle, conducted when the Greater Haig Fras area was under consideration for MCZ status. Defra-funded project 'Investigating the feasibility of utilizing AUV and Glider technology for mapping and monitoring of the UK MPA network (MB0118)', Case study 2: Shallow-water AUV mapping off SW UK; Cruise report: Ruhl, H., scientists, 2013. RRS Discovery Cruise 377 & 378, 05-27 July 2012. Autonomous ecological surveying of the abyss: understanding mesoscale spatial heterogeneity at the Porcupine Abyssal Plain.  (p. 73). Southampton, UK: National Oceanography Centre, Southampton. \n Images were mosaicked in 'tiles' consisting of 5 consecutive images (or c. 7.3 m2 of seabed at c. 3.2 m altitude observation). Images were orthorectified and scaled to a common altitude per tile. The average dimension of a pixel was 0.59 mm. Further details of the mosaicking process are detailed in: Morris, K.J., Bett, B.J., Durden, J.M., Huvenne, V.A.I., Milligan, R., Jones, D.O.B., McPhail, S., Robert, K., Bailey, D., Ruhl, H.A., 2014. A new method for ecological surveying of the abyss using autonomous underwater vehicle photography. Limnology and Oceanography: Methods, 12, 795-809. 10.4319/lom.2014.12.795 \n **Total number of tiles:** 2637 \n**Total area of survey:** 19223 m$^2$ \n **Number of individuals:** XXXXX \n [CEDA Link](https://www.ceda.ac.uk/)"
+                }
+            ]
+        },
+        {
+            "id":"2015 AUV Image Survey",
+            "description":"Haig Fras 2015 autonomous underwater vehicle image survey - mosaicked tiles used for quantifying benthic community. \n The aim of the survey was to undertake high-resolution mapping and colour photography over in a recommended Marine Conservation Zone (rMCZ), in order to highlight thecapability of AUV technology for high-resolution shallow-water mapping and benthicspecies identification. \n Haig Fras is an isolated, bedrock outcrop some 90 km north west of the Isles of Scilly.It is thought to be the only substantial area of rocky reef in the Celtic Sea beyond the coastal margin. The rock outcrop is the focus of both a Special Area of Conservation and a recommended Marine Conservation Zone. The specific location of the Autosub6000 mission was chosen to correspond with an area of ship-based seabed survey carried out from the RV Cefas Endeavour just prior to the arrival of RRS Discovery cruise 377/8. \n This photographic survey was the first in a series of surveys conducted in the same location with a camera mounted on an autonomous underwater vehicle, conducted when the Greater Haig Fras area was under consideration for MCZ status. Defra-funded project 'Investigating the feasibility of utilizing AUV and Glider technology for mapping and monitoring of the UK MPA network (MB0118)', Case study 2: Shallow-water AUV mapping off SW UK; Cruise report: Ruhl, H., scientists, 2013. RRS Discovery Cruise 377 & 378, 05-27 July 2015. Autonomous ecological surveying of the abyss: understanding mesoscale spatial heterogeneity at the Porcupine Abyssal Plain.  (p. 73). Southampton, UK: National Oceanography Centre, Southampton. \n Images were mosaicked in 'tiles' consisting of 5 consecutive images (or c. 7.3 m2 of seabed at c. 3.2 m altitude observation). Images were orthorectified and scaled to a common altitude per tile. The average dimension of a pixel was 0.59 mm. Further details of the mosaicking process are detailed in: Morris, K.J., Bett, B.J., Durden, J.M., Huvenne, V.A.I., Milligan, R., Jones, D.O.B., McPhail, S., Robert, K., Bailey, D., Ruhl, H.A., 2014. A new method for ecological surveying of the abyss using autonomous underwater vehicle photography. Limnology and Oceanography: Methods, 12, 795-809. 10.4319/lom.2014.12.795 \n **Total number of tiles:** 2637 \n**Total area of survey:** 19223 m$^2$ \n **Number of individuals:** XXXXX \n [CEDA Link](https://www.ceda.ac.uk/)",
+            "title":"2015 AUV Image Survey",
+            "license":"Placeholder",
+            "global_path": "https://pilot-imfe-o.s3-ext.jc.rl.ac.uk",
+            "assets": [
+                {
+                    "data_type": "CSV",
+                    "path": "/haig-fras/layers/seabed_images/hf2015/HF2015_alltile_otherdata.csv",
+                    "asset_type": "data"
+                },
+                {
+                    "data_type": "CSV",
+                    "path": "/haig-fras/layers/seabed_images/hf2015/HF2015_alltile_counts.csv",
+                    "asset_type": "data"
+                }
+            ],
+            "items": [
+                {
+                    "id": "2015 AUV Image Survey Data",
+                    "file": "https://imfe-pilot-api.noc.ac.uk/v1/data/csv?filenames=layers:seabed_images:hf2015:HF2015_alltile_otherdata,layers:seabed_images:hf2015:HF2015_alltile_counts&columns=active:False,local_data_type:Marker-COG,show:True&convert_geom=true",
+                    "path": "/haig-fras/layers/seabed_images/hf2015/HF2015_data.json",
+                    "times": {
+                        "start_time":"2020-01-01T00:00:00Z",
+                        "end_time" :"2020-12-31T00:00:00Z"
+                    },
+                    "data_type": "GeoJSON",
+                    "description":"Haig Fras 2015 autonomous underwater vehicle image survey - mosaicked tiles used for quantifying benthic community. \n The aim of the survey was to undertake high-resolution mapping and colour photography over in a recommended Marine Conservation Zone (rMCZ), in order to highlight thecapability of AUV technology for high-resolution shallow-water mapping and benthicspecies identification. \n Haig Fras is an isolated, bedrock outcrop some 90 km north west of the Isles of Scilly.It is thought to be the only substantial area of rocky reef in the Celtic Sea beyond the coastal margin. The rock outcrop is the focus of both a Special Area of Conservation and a recommended Marine Conservation Zone. The specific location of the Autosub6000 mission was chosen to correspond with an area of ship-based seabed survey carried out from the RV Cefas Endeavour just prior to the arrival of RRS Discovery cruise 377/8. \n This photographic survey was the first in a series of surveys conducted in the same location with a camera mounted on an autonomous underwater vehicle, conducted when the Greater Haig Fras area was under consideration for MCZ status. Defra-funded project 'Investigating the feasibility of utilizing AUV and Glider technology for mapping and monitoring of the UK MPA network (MB0118)', Case study 2: Shallow-water AUV mapping off SW UK; Cruise report: Ruhl, H., scientists, 2013. RRS Discovery Cruise 377 & 378, 05-27 July 2012. Autonomous ecological surveying of the abyss: understanding mesoscale spatial heterogeneity at the Porcupine Abyssal Plain.  (p. 73). Southampton, UK: National Oceanography Centre, Southampton. \n Images were mosaicked in 'tiles' consisting of 5 consecutive images (or c. 7.3 m2 of seabed at c. 3.2 m altitude observation). Images were orthorectified and scaled to a common altitude per tile. The average dimension of a pixel was 0.59 mm. Further details of the mosaicking process are detailed in: Morris, K.J., Bett, B.J., Durden, J.M., Huvenne, V.A.I., Milligan, R., Jones, D.O.B., McPhail, S., Robert, K., Bailey, D., Ruhl, H.A., 2014. A new method for ecological surveying of the abyss using autonomous underwater vehicle photography. Limnology and Oceanography: Methods, 12, 795-809. 10.4319/lom.2014.12.795 \n **Total number of tiles:** 2637 \n**Total area of survey:** 19223 m$^2$ \n **Number of individuals:** XXXXX \n [CEDA Link](https://www.ceda.ac.uk/)"
+                }
+            ]
+        },
+        {
+            "id":"JNCC CEND1012 Survey",
+            "description":"JNCC CEND1012 Survey",
+            "title":"JNCC CEND1012 Survey",
+            "license":"Placeholder",
+            "global_path": "https://pilot-imfe-o.s3-ext.jc.rl.ac.uk",
+            "assets": [
+                {
+                    "data_type": "CSV",
+                    "path": "/haig-fras/layers/seabed_images/jncc/JNCC_CEND1012_otherdata.csv",
+                    "asset_type": "data"
+                }
+            ],
+            "items": [{
+                "id": "JNCC CEND1012 data",
+                "file": "https://imfe-pilot-api.noc.ac.uk/v1/data/csv?filenames=layers:seabed_images:jncc:JNCC_CEND1012_otherdata&columns=active:False,local_data_type:Marker-COG,show:True&convert_geom=true",
+                "path": "/haig-fras/layers/seabed_images/jncc/JNCC_CEND1012_data.json",
+                "times": {
+                    "start_time":"2020-01-01T00:00:00Z",
+                    "end_time" :"2020-12-31T00:00:00Z"
+                },
+                "thumbnail_path": "/haig-fras/layers/seabed_images/jncc/images",
+                "thumbnail_format": "jpg",
+                "data_type": "GeoJSON",
+                "description": "A collection of benthic images acquired using a drop frame-mounted Canon PowerShot G5 camera during Joint Nature Conservation Committee (JNCC) offshore survey CEND1012 in 2012. The survey was undertaken from 07/07/2012 to 11/07/2012 at 28 stations throughout the Greater Haig Fras Marine Conservation Zone (MCZ) in the central Celtic Sea. The collection includes extracted metadata as well as species counts and occurrences."
+            }]
+        }
+    ]
+}

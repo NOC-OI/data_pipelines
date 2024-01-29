@@ -1,0 +1,28 @@
+# packaging
+pip
+setuptools
+
+boto3
+python-dotenv
+pathlib
+click
+pystac
+rasterio
+shapely
+boto3
+python-dateutil
+GDAL==3.4.3
+geopandas
+rioxarray
+rasterio
+
+# tests/linter
+black
+coverage
+flake8
+pytest
+black
+pylint
+flake8-in-file-ignores
+pre-commit
+yapf

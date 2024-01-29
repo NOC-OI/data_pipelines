@@ -1,0 +1,110 @@
+{
+    "catalog" : {
+        "id":"Bathymetry",
+        "description":"Bathymetry Data For Haig Fras Digital twin",
+        "title":"Bathymetry Data For Haig Fras Digital twin"
+    },
+    "collections":[
+        {
+            "id":"GEBCO",
+            "description":"GEBCO bathymetry data",
+            "title":"GEBCO",
+            "license":"Placeholder",
+            "global_path": "https://lrl8vbuxj1ma.compat.objectstorage.uk-london-1.oraclecloud.com",
+            "items": [
+                {
+                    "id": "2022",
+                    "path": "/haig-fras/layers/bathymetry/gebco/gebco_2022.tif",
+                    "times": {
+                        "start_time":"2021-07-01T00:00:00Z",
+                        "end_time" :"2022-06-01T00:00:00Z"
+                    },
+                    "data_type": "COG",
+                    "description": "This layer represents...",
+                    "assets": [
+                        {
+                            "data_type": "text/html",
+                            "path": "https://ion.cesium.com/assets/2182075",
+                            "asset_type": "overview"
+                        }
+                    ]
+                },
+                {
+                    "id": "2023",
+                    "path": "/haig-fras/layers/bathymetry/gebco/gebco_2023.tif",
+                    "times": {
+                        "start_time":"2021-07-01T00:00:00Z",
+                        "end_time" :"2022-06-01T00:00:00Z"
+                    },
+                    "data_type": "COG",
+                    "description": "This layer represents...",
+                    "assets": [
+                        {
+                            "data_type": "text/html",
+                            "path": "https://ion.cesium.com/assets/2182075",
+                            "asset_type": "overview"
+                        }
+                    ]
+                }
+            ]
+        },
+        
+        {
+            "id":"EMODNET",
+            "description":"EMODNET bathymetry data",
+            "title":"EMODNET",
+            "license":"Placeholder",
+            "global_path": "https://lrl8vbuxj1ma.compat.objectstorage.uk-london-1.oraclecloud.com",
+            "items": [
+                {
+                    "id": "2022",
+                    "path": "/haig-fras/layers/bathymetry/emodnet/emodnet_2022.tif",
+                    "times": {
+                        "start_time":"2022-01-01T00:00:00Z",
+                        "end_time" :"2022-12-31T00:00:00Z"
+                    },
+                    "data_type": "COG",
+                    "description": "This layer represents...",
+                    "assets": [
+                        {
+                            "data_type": "text/html",
+                            "path": "https://ion.cesium.com/assets/2312189",
+                            "asset_type": "overview"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id":"Shipborne",
+            "description":"Shipborne Bathymetry",
+            "title":"Shipborne",
+            "license":"protected",
+            "global_path": "https://lrl8vbuxj1ma.compat.objectstorage.uk-london-1.oraclecloud.com",
+            "items": [{
+                "id": "Shipborne_2018",
+                "path": "/haig-fras-private/layers/bathymetry/shipborne_2018/shipborne_2018.tif",
+                "signed_url": "gAAAAABlHTiQbMZra4FYJ3CUfPZtMTV2MmxBwlRxQaa7j6wYQJv9F2ZirQuV3IzkVIu_AaMK0BJ5ToeOWXDmxjhIka8u4PTYiya_CLLDNaDWUCjp8QiCTKbReiYG2FyiyVtLxLEISoE052DdxKNEGNLUVjNYzp56sfxfB9qvvbzDqYm_R4NmcyZrPHmrNHRgPPEqrLEHi0G1xQrcuvh6umz4SIFQB0QdtHUpL5AHXWGnx6FJwq-uTdx9DeW-rsnmVV1uHabXHGGOdnSuXp_NaMX_dmhsZzowiD-xIG-skcgEupmja61dCyHnFkFdBVxgtmfzY4polx5PeH6sw2GQo3Fe4uVu0MhDAE7yEqIjWb57vWzzHlFump4=",
+                "times": {
+                    "start_time":"2020-01-01T00:00:00Z",
+                    "end_time" :"2020-12-31T00:00:00Z"
+                },
+                "coords":{
+                    "min_long": -7.91445,
+                    "max_long": -7.60825,
+                    "min_lat": 50.18325,
+                    "max_lat": 50.41935
+                },
+                "data_type": "COG",
+                "description": "This layer represents...",
+                "assets": [
+                    {
+                        "data_type": "text/html",
+                        "path": "https://ion.cesium.com/assets/2185744",
+                        "asset_type": "overview"
+                    }
+                ]    
+            }]
+        }
+    ]
+}

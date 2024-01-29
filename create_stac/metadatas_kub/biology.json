@@ -1,0 +1,105 @@
+{
+    "catalog" : {
+        "id":"Biology",
+        "description":"Biology",
+        "title":"Biology"
+    },
+    "collections":[
+        {
+            "id":"Presence/Absence Benthos",
+            "description":"Presence/Absence Benthos",
+            "title":"Presence/Absence Benthos",
+            "license":"Placeholder",
+            "items": [
+                {
+                    "id": "Presence/Absence Benthos",
+                    "times": {
+                        "start_time":"2020-01-01T00:00:00Z",
+                        "end_time" :"2020-12-31T00:00:00Z"
+                    },
+                    "coords":{
+                        "min_long": -90,
+                        "max_long": 90,
+                        "min_lat": -180,
+                        "max_lat": 180
+                    },                    
+                    "data_type": "WMS",
+                    "description": "This layer represents...",
+                    "links": [
+                        {
+                            "rel": "wms",
+                            "href": "https://ows.emodnet.eu/geoserver/biology/ows",
+                            "type": "text/xml",
+                            "title": "Presence/Absence Benthos",
+                            "wms:layers": "probability_occurrence_benthos_northsea"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id":"Fraction of Mixoplancton",
+            "description":"Fraction of Mixoplancton",
+            "title":"Fraction of Mixoplancton",
+            "license":"Placeholder",
+            "items": [
+                {
+                    "id": "Fraction of Mixoplancton",
+                    "times": {
+                        "start_time":"2020-01-01T00:00:00Z",
+                        "end_time" :"2020-12-31T00:00:00Z"
+                    },
+                    "coords":{
+                        "min_long": -90,
+                        "max_long": 90,
+                        "min_lat": -180,
+                        "max_lat": 180
+                    },                    
+                    "data_type": "WMS",
+                    "description": "This layer represents...",
+                    "links": [
+                        {
+                            "rel": "wms",
+                            "href": "https://ows.emodnet.eu/geoserver/biology/ows",
+                            "type": "text/xml",
+                            "title": "Fraction of Mixoplancton",
+                            "wms:layers": "fraction_mixoplankton"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id":"Invasive Macroalgae",
+            "description":"Invasive Macroalgae",
+            "title":"Invasive Macroalgae",
+            "license":"Placeholder",
+            "items": [
+                {
+                    "id": "Invasive Macroalgae",
+                    "times": {
+                        "start_time":"2020-01-01T00:00:00Z",
+                        "end_time" :"2020-12-31T00:00:00Z"
+                    },
+                    "coords":{
+                        "min_long": -90,
+                        "max_long": 90,
+                        "min_lat": -180,
+                        "max_lat": 180
+                    },                    
+                    "data_type": "WMS",
+                    "description": "This layer represents...",
+                    "links": [
+                        {
+                            "rel": "wms",
+                            "href": "https://geo.vliz.be/geoserver/Emodnetbio/wms",
+                            "type": "text/xml",
+                            "title": "Invasive Macroalgae",
+                            "wms:layers": "kuenm_models"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

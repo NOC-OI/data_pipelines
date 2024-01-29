@@ -1,0 +1,50 @@
+{
+  "name of the layer": "GEBCO",
+  "description of the layer": "GEBCO bathymetry data",
+  "license of the layer (include a license if it applies": "",
+  "layers items": [
+    {
+      "item name": "2022",
+      "data_type (should include vector or raster)": "raster",
+      "download_format (should include a list of download formats)": [
+        "tif"
+      ],
+      "description of the item": "The GEBCO_2022 Net-CDF grid was converted to a cloud-optimised format for use in the Haig Fras Digital Twin pilot, built as part of the Natural Environment Research Council (NERC) project: Piloting an Information Management Framework for environmental digital twins (NE/X016765/1). The GEBCO_2023 Grid is a global continuous terrain model for ocean and land with a spatial resolution of 15 arc seconds. In regions outside of the Arctic Ocean area, the grid uses as a base Version 2.5.5 of the SRTM15_plus data set (Tozer, B. et al, 2019). This data set is a fusion of land topography with measured and estimated seafloor topography. Included on top of this base grid are gridded bathymetric data sets developed by the four Regional Centers of The Nippon Foundation-GEBCO Seabed 2030 Project. The GEBCO_2023 Grid represents all data within the 2023 compilation. The compilation of the GEBCO_2023 Grid was carried out at the Seabed 2030 Global Center, hosted at the National Oceanography Centre, UK, with the aim of producing a seamless global terrain model. Outside of Polar regions, the Regional Centers provide their data sets as sparse grids i.e. only grid cells that contain data are populated. These data sets were included on to the base using a 'remove-restore' blending procedure. This is a two-stage process of computing the difference between the new data and the base grid and then gridding the difference and adding the difference back to the existing base grid. The aim is to achieve a smooth transition between the new and base data sets with the minimum of perturbation of the existing base data set. The data sets supplied in the form of complete grids (primarily areas north of 60N and south of 50S) were included using feather blending techniques from GlobalMapper software. The GEBCO_2023 Grid has been developed through the Nippon Foundation-GEBCO Seabed 2030 Project. This is a collaborative project between the Nippon Foundation of Japan and the General Bathymetric Chart of the Oceans (GEBCO). It aims to bring together all available bathymetric data to produce the definitive map of the world ocean floor by 2030 and make it available to all. Funded by the Nippon Foundation, the four Seabed 2030 Regional Centers include the Southern Ocean - hosted at the Alfred Wegener Institute, Germany; South and West Pacific Ocean - hosted at the National Institute of Water and Atmospheric Research, New Zealand; Atlantic and Indian Oceans - hosted at the Lamont-Doherty Earth Observatory, Columbia University, USA; Arctic and North Pacific Oceans - hosted at Stockholm University, Sweden and the Center for Coastal and Ocean Mapping at the University of New Hampshire, USA.",
+      "limits of the item (latlon limits if apply. If not, leave this empty)": {
+        "min_long": -90,
+        "max_long": 90,
+        "min_lat": -180,
+        "max_lat": 180
+      },
+      "times of the item (datatime related to the data used to generate the item. Leave empty if it does not apply)": {
+        "start_time": "2022-01-01T00:00:00Z",
+        "end_time": "2022-12-31T00:00:00Z"
+      },
+      "other important information 1": "",
+      "other important information 2": "",
+      "other important information n": ""
+    },
+    {
+      "item_name": "2023",
+      "data_type (should include vector or raster)": "raster",
+      "download_format (should include a list of download formats)": [
+        "tif"
+      ],
+      "data_type": "COG",
+      "description of the item": "The GEBCO_2023 Net-CDF grid was converted to a cloud-optimised format for use in the Haig Fras Digital Twin pilot, built as part of the Natural Environment Research Council (NERC) project: Piloting an Information Management Framework for environmental digital twins (NE/X016765/1). The GEBCO_2023 Grid is a global continuous terrain model for ocean and land with a spatial resolution of 15 arc seconds. In regions outside of the Arctic Ocean area, the grid uses as a base Version 2.5.5 of the SRTM15_plus data set (Tozer, B. et al, 2019). This data set is a fusion of land topography with measured and estimated seafloor topography. Included on top of this base grid are gridded bathymetric data sets developed by the four Regional Centers of The Nippon Foundation-GEBCO Seabed 2030 Project. The GEBCO_2023 Grid represents all data within the 2023 compilation. The compilation of the GEBCO_2023 Grid was carried out at the Seabed 2030 Global Center, hosted at the National Oceanography Centre, UK, with the aim of producing a seamless global terrain model. Outside of Polar regions, the Regional Centers provide their data sets as sparse grids i.e. only grid cells that contain data are populated. These data sets were included on to the base using a 'remove-restore' blending procedure. This is a two-stage process of computing the difference between the new data and the base grid and then gridding the difference and adding the difference back to the existing base grid. The aim is to achieve a smooth transition between the new and base data sets with the minimum of perturbation of the existing base data set. The data sets supplied in the form of complete grids (primarily areas north of 60N and south of 50S) were included using feather blending techniques from GlobalMapper software. The GEBCO_2023 Grid has been developed through the Nippon Foundation-GEBCO Seabed 2030 Project. This is a collaborative project between the Nippon Foundation of Japan and the General Bathymetric Chart of the Oceans (GEBCO). It aims to bring together all available bathymetric data to produce the definitive map of the world ocean floor by 2030 and make it available to all. Funded by the Nippon Foundation, the four Seabed 2030 Regional Centers include the Southern Ocean - hosted at the Alfred Wegener Institute, Germany; South and West Pacific Ocean - hosted at the National Institute of Water and Atmospheric Research, New Zealand; Atlantic and Indian Oceans - hosted at the Lamont-Doherty Earth Observatory, Columbia University, USA; Arctic and North Pacific Oceans - hosted at Stockholm University, Sweden and the Center for Coastal and Ocean Mapping at the University of New Hampshire, USA.",
+      "limits of the item (latlon limits if apply. If not, leave this empty)": {
+        "min_long": -90,
+        "max_long": 90,
+        "min_lat": -180,
+        "max_lat": 180
+      },
+      "times of the item (datatime related to the data used to generate the item. Leave empty if it does not apply)": {
+        "start_time": "2023-01-01T00:00:00Z",
+        "end_time": "2023-12-31T00:00:00Z"
+      },
+      "other important information 1": "",
+      "other important information 2": "",
+      "other important information n": ""
+    }
+  ]
+}

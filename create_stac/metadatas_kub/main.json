@@ -1,0 +1,17 @@
+{
+    "catalog" : {
+        "id":"Haig Fras",
+        "description":"Haig Fras Digital twin",
+        "title":"Digital Twin"
+    },
+    "sub_catalogs": [
+        "bathymetry",
+        "sidescan",
+        "seabed_images",
+        "seabed_habitats",
+        "administrative_areas",
+        "biology",
+        "chemistry",
+        "geology"
+    ]
+}

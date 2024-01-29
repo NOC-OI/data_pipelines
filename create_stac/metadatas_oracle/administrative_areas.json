@@ -1,0 +1,105 @@
+{
+    "catalog" : {
+        "id":"Administrative Areas",
+        "description":"Administrative Areas",
+        "title":"Administrative Areas"
+    },
+    "collections":[
+        {
+            "id":"UK Territorial Sea Limit",
+            "description":"UK Territorial Sea Limit",
+            "title":"UK Territorial Sea Limit",
+            "license":"Placeholder",
+            "items": [
+                {
+                    "id": "UK Territorial Sea Limit",
+                    "times": {
+                        "start_time":"2020-01-01T00:00:00Z",
+                        "end_time" :"2020-12-31T00:00:00Z"
+                    },
+                    "coords":{
+                        "min_long": -90,
+                        "max_long": 90,
+                        "min_lat": -180,
+                        "max_lat": 180
+                    },                    
+                    "data_type": "WMS",
+                    "description": "The limits and boundaries of the UK, UK Overseas Territories and UK Crown Dependencies are available from this website in accordance with Articles 16, 74 and 84 of the United Nations Convention on the Law of the Sea. Limits are calculated from the normal baseline (the low water line on the largest UKHO charts) and limits are maintained.",
+                    "links": [
+                        {
+                            "rel": "wms",
+                            "href": "https://mpa-ows.jncc.gov.uk/mpa_mapper/wms",
+                            "type": "text/xml",
+                            "title": "UK Territorial Sea Limit",
+                            "wms:layers": "ukts"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id":"UK Continental Shelf and ZEE",
+            "description":"UK Continental Shelf and ZEE",
+            "title":"UK Continental Shelf and ZEE",
+            "license":"Placeholder",
+            "items": [
+                {
+                    "id": "UK Continental Shelf and ZEE",
+                    "times": {
+                        "start_time":"2020-01-01T00:00:00Z",
+                        "end_time" :"2020-12-31T00:00:00Z"
+                    },
+                    "data_type": "WMS",
+                    "description": "The limits and boundaries of the UK, UK Overseas Territories and UK Crown Dependencies are available from this website in accordance with Articles 16, 74 and 84 of the United Nations Convention on the Law of the Sea. Limits are calculated from the normal baseline (the low water line on the largest UKHO charts) and limits are maintained.",
+                    "coords":{
+                        "min_long": -90,
+                        "max_long": 90,
+                        "min_lat": -180,
+                        "max_lat": 180
+                    },                    
+                    "links": [
+                        {
+                            "rel": "wms",
+                            "href": "https://mpa-ows.jncc.gov.uk/mpa_mapper/wms",
+                            "type": "text/xml",
+                            "title": "UK Continental Shelf and ZEE",
+                            "wms:layers": "ukcs"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id":"UK Waters",
+            "description":"UK Waters",
+            "title":"UK Waters",
+            "license":"Placeholder",
+            "items": [
+                {
+                    "id": "UK Waters",
+                    "times": {
+                        "start_time":"2020-01-01T00:00:00Z",
+                        "end_time" :"2020-12-31T00:00:00Z"
+                    },
+                    "data_type": "WMS",
+                    "description": "This resource relates to Web Map Service (WMS) layers showing the UK country and Crown Dependency waters around the UK. They were last updated in March 2019. JNCC have compiled these layers using the following datasets from the United Kingdom Hydrographic Office: Channel Islands Maritime Limits, Isle of Man Maritime Limits, Northern Ireland Adjacent Waters Limit, Northern Ireland Adjacent Waters Limit, Scotland Adjacent Waters Limit, UK EEZ Limit, UK France TS EEZ Boundary, UK Territorial Sea Limit and Wales Adjacent Waters Limit. The layers are available to view on the JNCC MPA mapper and can also be accessed via our WMS: https://ows.jncc.gov.uk/mpa_mapper/wms . The component datasets are available to download from the UKHO: -https://data.admiralty.co.uk/portal/apps/sites/#/marine-data-portal/items?tags=law%20of%20the%20sea .",
+                    "coords":{
+                        "min_long": -90,
+                        "max_long": 90,
+                        "min_lat": -180,
+                        "max_lat": 180
+                    },                    
+                    "links": [
+                        {
+                            "rel": "wms",
+                            "href": "https://mpa-ows.jncc.gov.uk/mpa_mapper/wms",
+                            "type": "text/xml",
+                            "title": "UK Waters",
+                            "wms:layers": "uk_countrywaters"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

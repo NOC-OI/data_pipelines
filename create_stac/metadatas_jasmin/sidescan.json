@@ -1,0 +1,33 @@
+{
+    "catalog" : {
+        "id":"Sidescan",
+        "description":"Sidescan data",
+        "title":"Sidescan"
+    },
+    "collections":[
+        {
+            "id":"Sidescan",
+            "description":"Sidescan data",
+            "title":"Sidescan",
+            "license":"protected",
+            "global_path": "https://pilot-imfe-o.s3-ext.jc.rl.ac.uk",
+            "items": [{
+                "id": "Sidescan 2012",
+                "path": "/haig-fras-private/layers/sidescan/sidescan_2012/sidescan_2012.tif",
+                "signed_url": "gAAAAABlHTiQ0dQ_hwClMsABjoFQG_XGNXCXt0u1gnYJ_R_p1KrmyzhGNBW6kpf90BGrKaiiBe93OEhhfYH4_VCBm4UE_SgfhnSMkdK9GpKRICobuEoYcPaOVJ_dHPzCA3hmsgrJqE6cgFiVWI8L3_6tXQPsAN_5DABDTntxm1dBFxclfVn8UGttbAEpoFcCYBchAUN09w4efq2bx_dLy03qdC6nm88VpBiJaxihbM2FTgYRr1gt65UmCGK2KPoPQsG4y-F_lxVgbRxqEaBIKBKj79EzySjmCZgLF0KTQ0eSyLnQzpZysTtjrxFO5zfS5orK3CZG3hfihCBPZt3Oh-dxcLjyCWGgDih2k41XiV9qrj0fK7iMkFo=",
+                "times": {
+                    "start_time":"2020-01-01T00:00:00Z",
+                    "end_time" :"2020-12-31T00:00:00Z"
+                },
+                "coords":{
+                    "min_long": -7.721740843317691,
+                    "max_long": -7.707613218639933,
+                    "min_lat": 50.352661160034216,
+                    "max_lat": 50.39904357204282
+                },
+                "data_type": "COG",
+                "description": "Backscatter data from sidescan sonar was acquired during a survey within the Greater Haig Fras Marine Conservation Zone (MCZ), central Celtic Sea, in 2012. This data was used in the Haig Fras Digital Twin pilot, built as part of the Natural Environment Research Council (NERC) project: Piloting an Information Management Framework for environmental digital twins (NE/X016765/1). This was the first in a series of similar surveys to be conducted in this location. The backscatter data were acquired using an AUV-mounted EdgeTech 2200-FS dual frequency sidescan sonar (120/410 kHz). The aim of the survey was to undertake high-resolution acoustic seabed mapping and visual imagery survey in a Marine Protected Area, in order to highlight the capability of AUV technology for offshore seabed mapping and benthic assemblage assessment. The work was initially undertaken as part of a Defra-funded project 'Investigating the feasibility of utilizing AUV and Glider technology for mapping and monitoring of the UK MPA network (MB0118)', Case study 2: Shallow-water AUV mapping off SW UK (https://nora.nerc.ac.uk/id/eprint/500733/), and the Natural Environment Research Council (NERC) funded Autonomous Ecological Surveying of the Abyss project (NE/H021787/1), involving scientists from the National Oceanography Centre (NOC), UK."
+            }]
+        }
+    ]
+}

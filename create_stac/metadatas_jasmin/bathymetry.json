@@ -1,0 +1,110 @@
+{
+    "catalog" : {
+        "id":"Bathymetry",
+        "description":"Bathymetry Data For Haig Fras Digital twin",
+        "title":"Bathymetry Data For Haig Fras Digital twin"
+    },
+    "collections":[
+        {
+            "id":"GEBCO",
+            "description":"GEBCO bathymetry data",
+            "title":"GEBCO",
+            "license":"Placeholder",
+            "global_path": "https://pilot-imfe-o.s3-ext.jc.rl.ac.uk",
+            "items": [
+                {
+                    "id": "2022",
+                    "path": "/haig-fras/layers/bathymetry/gebco/gebco_2022.tif",
+                    "times": {
+                        "start_time":"2021-07-01T00:00:00Z",
+                        "end_time" :"2022-06-01T00:00:00Z"
+                    },
+                    "data_type": "COG",
+                    "description": "The GEBCO_2022 Net-CDF grid was converted to a cloud-optimised format for use in the Haig Fras Digital Twin pilot, built as part of the Natural Environment Research Council (NERC) project: Piloting an Information Management Framework for environmental digital twins (NE/X016765/1). The GEBCO_2023 Grid is a global continuous terrain model for ocean and land with a spatial resolution of 15 arc seconds. In regions outside of the Arctic Ocean area, the grid uses as a base Version 2.5.5 of the SRTM15_plus data set (Tozer, B. et al, 2019). This data set is a fusion of land topography with measured and estimated seafloor topography. Included on top of this base grid are gridded bathymetric data sets developed by the four Regional Centers of The Nippon Foundation-GEBCO Seabed 2030 Project. The GEBCO_2023 Grid represents all data within the 2023 compilation. The compilation of the GEBCO_2023 Grid was carried out at the Seabed 2030 Global Center, hosted at the National Oceanography Centre, UK, with the aim of producing a seamless global terrain model. Outside of Polar regions, the Regional Centers provide their data sets as sparse grids i.e. only grid cells that contain data are populated. These data sets were included on to the base using a 'remove-restore' blending procedure. This is a two-stage process of computing the difference between the new data and the base grid and then gridding the difference and adding the difference back to the existing base grid. The aim is to achieve a smooth transition between the new and base data sets with the minimum of perturbation of the existing base data set. The data sets supplied in the form of complete grids (primarily areas north of 60N and south of 50S) were included using feather blending techniques from GlobalMapper software. The GEBCO_2023 Grid has been developed through the Nippon Foundation-GEBCO Seabed 2030 Project. This is a collaborative project between the Nippon Foundation of Japan and the General Bathymetric Chart of the Oceans (GEBCO). It aims to bring together all available bathymetric data to produce the definitive map of the world ocean floor by 2030 and make it available to all. Funded by the Nippon Foundation, the four Seabed 2030 Regional Centers include the Southern Ocean - hosted at the Alfred Wegener Institute, Germany; South and West Pacific Ocean - hosted at the National Institute of Water and Atmospheric Research, New Zealand; Atlantic and Indian Oceans - hosted at the Lamont-Doherty Earth Observatory, Columbia University, USA; Arctic and North Pacific Oceans - hosted at Stockholm University, Sweden and the Center for Coastal and Ocean Mapping at the University of New Hampshire, USA.",
+                    "assets": [
+                        {
+                            "data_type": "text/html",
+                            "path": "https://ion.cesium.com/assets/2182075",
+                            "asset_type": "overview"
+                        }
+                    ]
+                },
+                {
+                    "id": "2023",
+                    "path": "/haig-fras/layers/bathymetry/gebco/gebco_2023.tif",
+                    "times": {
+                        "start_time":"2021-07-01T00:00:00Z",
+                        "end_time" :"2022-06-01T00:00:00Z"
+                    },
+                    "data_type": "COG",
+                    "description": "The GEBCO_2023 Net-CDF grid was converted to a cloud-optimised format for use in the Haig Fras Digital Twin pilot, built as part of the Natural Environment Research Council (NERC) project: Piloting an Information Management Framework for environmental digital twins (NE/X016765/1). The GEBCO_2023 Grid is a global continuous terrain model for ocean and land with a spatial resolution of 15 arc seconds. In regions outside of the Arctic Ocean area, the grid uses as a base Version 2.5.5 of the SRTM15_plus data set (Tozer, B. et al, 2019). This data set is a fusion of land topography with measured and estimated seafloor topography. Included on top of this base grid are gridded bathymetric data sets developed by the four Regional Centers of The Nippon Foundation-GEBCO Seabed 2030 Project. The GEBCO_2023 Grid represents all data within the 2023 compilation. The compilation of the GEBCO_2023 Grid was carried out at the Seabed 2030 Global Center, hosted at the National Oceanography Centre, UK, with the aim of producing a seamless global terrain model. Outside of Polar regions, the Regional Centers provide their data sets as sparse grids i.e. only grid cells that contain data are populated. These data sets were included on to the base using a 'remove-restore' blending procedure. This is a two-stage process of computing the difference between the new data and the base grid and then gridding the difference and adding the difference back to the existing base grid. The aim is to achieve a smooth transition between the new and base data sets with the minimum of perturbation of the existing base data set. The data sets supplied in the form of complete grids (primarily areas north of 60N and south of 50S) were included using feather blending techniques from GlobalMapper software. The GEBCO_2023 Grid has been developed through the Nippon Foundation-GEBCO Seabed 2030 Project. This is a collaborative project between the Nippon Foundation of Japan and the General Bathymetric Chart of the Oceans (GEBCO). It aims to bring together all available bathymetric data to produce the definitive map of the world ocean floor by 2030 and make it available to all. Funded by the Nippon Foundation, the four Seabed 2030 Regional Centers include the Southern Ocean - hosted at the Alfred Wegener Institute, Germany; South and West Pacific Ocean - hosted at the National Institute of Water and Atmospheric Research, New Zealand; Atlantic and Indian Oceans - hosted at the Lamont-Doherty Earth Observatory, Columbia University, USA; Arctic and North Pacific Oceans - hosted at Stockholm University, Sweden and the Center for Coastal and Ocean Mapping at the University of New Hampshire, USA.",
+                    "assets": [
+                        {
+                            "data_type": "text/html",
+                            "path": "https://ion.cesium.com/assets/2182075",
+                            "asset_type": "overview"
+                        }
+                    ]
+                }
+            ]
+        },
+        
+        {
+            "id":"EMODNET",
+            "description":"EMODNET bathymetry data",
+            "title":"EMODNET",
+            "license":"Placeholder",
+            "global_path": "https://pilot-imfe-o.s3-ext.jc.rl.ac.uk",
+            "items": [
+                {
+                    "id": "2022",
+                    "path": "/haig-fras/layers/bathymetry/emodnet/emodnet_2022.tif",
+                    "times": {
+                        "start_time":"2022-01-01T00:00:00Z",
+                        "end_time" :"2022-12-31T00:00:00Z"
+                    },
+                    "data_type": "COG",
+                    "description": "Tiles E3 and E4 from the European Marine Observation and Data Network (EMODnet) Bathymetry Digital Terrain Model (DTM), 2022, were downloaded from the EMODnet Map Viewer (https://emodnet.ec.europa.eu/geoviewer/) in net-CDF format. The files were converted to cloud-optimised Geo-Tiff (COG) format and stitched together using code available <here> to create a single COG file for use in the Haig Fras Digital Twin pilot, built as part of the Natural Environment Research Council (NERC) project: Piloting an Information Management Framework for environmental digital twins (NE/X016765/1).",
+                    "assets": [
+                        {
+                            "data_type": "text/html",
+                            "path": "https://ion.cesium.com/assets/2312189",
+                            "asset_type": "overview"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id":"Shipborne",
+            "description":"Shipborne Bathymetry",
+            "title":"Shipborne",
+            "license":"protected",
+            "global_path": "https://pilot-imfe-o.s3-ext.jc.rl.ac.uk",
+            "items": [{
+                "id": "Shipborne_2018",
+                "path": "/haig-fras-private/layers/bathymetry/shipborne_2018/shipborne_2018.tif",
+                "signed_url": "gAAAAABlHTiQbMZra4FYJ3CUfPZtMTV2MmxBwlRxQaa7j6wYQJv9F2ZirQuV3IzkVIu_AaMK0BJ5ToeOWXDmxjhIka8u4PTYiya_CLLDNaDWUCjp8QiCTKbReiYG2FyiyVtLxLEISoE052DdxKNEGNLUVjNYzp56sfxfB9qvvbzDqYm_R4NmcyZrPHmrNHRgPPEqrLEHi0G1xQrcuvh6umz4SIFQB0QdtHUpL5AHXWGnx6FJwq-uTdx9DeW-rsnmVV1uHabXHGGOdnSuXp_NaMX_dmhsZzowiD-xIG-skcgEupmja61dCyHnFkFdBVxgtmfzY4polx5PeH6sw2GQo3Fe4uVu0MhDAE7yEqIjWb57vWzzHlFump4=",
+                "times": {
+                    "start_time":"2020-01-01T00:00:00Z",
+                    "end_time" :"2020-12-31T00:00:00Z"
+                },
+                "coords":{
+                    "min_long": -7.91445,
+                    "max_long": -7.60825,
+                    "min_lat": 50.18325,
+                    "max_lat": 50.41935
+                },
+                "data_type": "COG",
+                "description": "Gridded multibeam bathymetry data acquired from the Greater Haig Fras Marine Protected Area during RRS James Cook cruise JC166/7 (June-July 2018) was converted into cloud optimised Geo-Tiff format, for use in the Haig Fras Digital Twin pilot, built as part of the Natural Environment Research Council (NERC) project: Piloting an Information Management Framework for environmental digital twins (NE/X016765/1). Multibeam bathymetry data were collected with a hull-mounted Kongsberg EM710 echosounder. The cruise was conducted with the aim of mapping Whittard Canyon, a deep ocean canyon in the Bay of Biscay, and Greater Haig Fras, a Marine Conservation Zone in the central Celtic Sea, to obtain a better insight in the biodiversity patterns, benthic habitat distributions and sediment transport processes of submarine canyons. The Haig Fras EM710 data were edited using Caris HIPS software by Catherine Wardell and gridded at 10m in a WGS84 UTM Zone 29N projection. The vertical datum of the data is matched to mean sea level (MSL). They were exported as longitude-latitude-depth triples. Funding was provided to the Climate Linked Atlantic Sector Science (CLASS ), the National Capability Single Sector Marine Research Programme by the Natural Environmental Research Council (NERC).",
+                "assets": [
+                    {
+                        "data_type": "text/html",
+                        "path": "https://ion.cesium.com/assets/2185744",
+                        "asset_type": "overview"
+                    }
+                ]    
+            }]
+        }
+    ]
+}
